@@ -1,0 +1,3 @@
+ReWriteEngine on 
+ReWriteRule ^api/students/?$ api/app.js
+ReWriteRule ^api/students/([0-9])?$ api/app.js?id=$1
